@@ -87,7 +87,7 @@ class BookingRepository {
     fun addAppointment(appointment: Appointment, onSuccess: () -> Unit, onFailure: (Exception) -> Unit) {
         generateId("B", "booking_counter", 7, 
             onComplete = { newId ->
-                val newAppointment = appointment.copy(userId = newId)
+                val newAppointment = appointment
                 bookingsCollection.document(newId).set(newAppointment)
                     .addOnSuccessListener { onSuccess() }
                     .addOnFailureListener { onFailure(it) }
@@ -106,7 +106,6 @@ class BookingRepository {
              
              // We use the Appointment model directly, but ensure ID and Timestamp are set
              val finalAppointment = appointment.copy(
-                 userId = bookingId,
                  timestamp = com.google.firebase.Timestamp.now()
              )
             
@@ -164,7 +163,6 @@ class BookingRepository {
             
             // 2. Prepare Booking Reference & Data
             val finalAppointment = appointment.copy(
-                 userId = bookingId,
                  timestamp = com.google.firebase.Timestamp.now()
             )
             

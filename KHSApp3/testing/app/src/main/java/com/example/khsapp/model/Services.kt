@@ -3,6 +3,7 @@ package com.example.khsapp.model
 import com.google.firebase.firestore.PropertyName
 
 data class Services(
+    @get:PropertyName("serviceIds")
     val serviceId: String = "",
     
     val specialization: String = "",
