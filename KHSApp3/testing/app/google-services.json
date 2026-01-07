@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "1001118458502",
+    "project_id": "khs-clinic-appointment",
+    "storage_bucket": "khs-clinic-appointment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001118458502:android:ff630f5783339ee8702707",
+        "android_client_info": {
+          "package_name": "com.example.bookappointment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE7Ankhaujpj_f9pMC3QImNzIy4j8-WA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001118458502:android:37006b5d37816c17702707",
+        "android_client_info": {
+          "package_name": "com.example.kbclinicbookingsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE7Ankhaujpj_f9pMC3QImNzIy4j8-WA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001118458502:android:6ed0702f21d61d53702707",
+        "android_client_info": {
+          "package_name": "com.example.khsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE7Ankhaujpj_f9pMC3QImNzIy4j8-WA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001118458502:android:34880e50ab1e862e702707",
+        "android_client_info": {
+          "package_name": "com.example.sprint2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE7Ankhaujpj_f9pMC3QImNzIy4j8-WA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001118458502:android:70466f393ddd8232702707",
+        "android_client_info": {
+          "package_name": "com.example.viewappointment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE7Ankhaujpj_f9pMC3QImNzIy4j8-WA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
