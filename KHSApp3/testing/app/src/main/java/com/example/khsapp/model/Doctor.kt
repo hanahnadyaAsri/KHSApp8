@@ -2,7 +2,7 @@ package com.example.khsapp.model
 import com.google.firebase.firestore.PropertyName
 import com.google.firebase.firestore.DocumentReference
 
-data class Doctor(
+data class Doctors(
     @get:PropertyName("doctorId")
     val doctorId: String = "",
     

@@ -43,7 +43,7 @@ fun DoctorSelection(
         if (serviceId.isNotEmpty()) {
             val result = repository.getDoctorsByServiceId(serviceId)
             result.onSuccess {
-                doctors = it
+                Doctors = it
                 isLoading = false
             }
             result.onFailure { e ->
@@ -65,7 +65,7 @@ fun DoctorSelection(
 
 @Composable
 fun DoctorSelectionContent(
-    doctors: List<Doctor>,
+    Doctors: List<Doctor>,
     isLoading: Boolean,
     onDoctorSelected: (Doctor) -> Unit,
     onBack: () -> Unit
