@@ -16,7 +16,7 @@ data class Doctor(
     val drGender: String = "Male",
     
     @get:PropertyName("yearOfExperience")
-    val yearOfExperience: Int = 0,
+    val yearOfExperience: Any = 0,
     
     // Service IDs associated with this doctor (can be Strings or DocumentReferences)
     @get:PropertyName("serviceIds")
